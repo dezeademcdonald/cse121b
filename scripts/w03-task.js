@@ -19,7 +19,7 @@ document.querySelector('#addNumbers').addEventListener('click', addNums);
 
 
 /* Function Expression - Subtract Numbers */
-function sub(num1, num2){
+function subtraction(num1, num2){
     return num1 - num2;
 }
 
@@ -28,7 +28,7 @@ function subNums(){
     let subNum1 = Number(document.querySelector('#subtract1').value);
     let subNum2 = Number(document.querySelector('#subtract2').value);
 
-    document.querySelector('#difference').value = sub(subNum1, subNum2);
+    document.querySelector('#difference').value = subtraction(subNum1, subNum2);
 }
 
 document.querySelector('#subtractNumbers').addEventListener('click', subNums);
