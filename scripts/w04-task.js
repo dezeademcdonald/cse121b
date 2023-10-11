@@ -29,7 +29,7 @@ myProfile.placesLived.push(
         places: 
             "21th Street, Sinkor, Republic Of Liberia",
         length: 
-            "5 years"
+            "6 years"
         
     }
 );
