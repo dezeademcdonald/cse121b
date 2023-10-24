@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROJECT</title>
+  <link rel="stylesheets" href="styles/project.css">
+</head>
+<body>
+  <header>
+    
+  </header>
+  <main id="home">
+    <section>
+      <h1 class="h-one">
+        Mathematical Operations
+      </h1>
+      <p class="p-one">
+        From the list of options below please enter the operation you would like to perform one at a time in the option box.
+      </p>
+      <ul id="list-of-perations"></ul>
+    </section>
+    <article>
+      <div>
+        <label for="option">Option:</label>
+        <input type="text" id="option" name="option">
+      </div>
+    </article>
+    <article>
+      <p class="p-two">
+        Please enter the first number below.
+      </p>
+      <div>
+        <label for="first-num">
+          First Number
+        </label>
+        <input type="text" id="first-num" name="first-num"> 
+      </div>
+    </article>
+      <p class="p-three">
+        Please enter the second number below.
+      </p>
+      <div>
+        <label for="second-num">
+          second Number
+        </label>
+        <input type="text" id="second-num" name="second-num">
+      </div>
+    <section>
+      <p class="p-four">
+        please click on the calculate button to get your answer.
+      </p>
+      <div>
+        <input type="button" id="calculate" value="calculate"> 
+      </div>
+    </section>
+    <article>
+      <label for="answer">
+        Answer:
+      </label>
+      <input type="text" id="answer" name="answer" disabled>
+    </article>
+  </main>
+  <script src="scripts/project.js"></script>
+</body>
+</html>
